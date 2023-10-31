@@ -1,0 +1,106 @@
+body {
+    padding: 0rem 8rem;
+    background-color: #f5f5f5;
+}
+
+.flex {
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.flex .quest {
+    display: flex;
+    color: rgb(28, 28, 122);
+    font-size: xx-large;
+    font-weight: 700;
+    font-size: 2rem;
+    gap: 20rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.place {
+    display: flex;
+    margin-left: 15rem;
+}
+
+.box .blog {
+    margin-left: 5rem;
+    color: black;
+}
+
+.flex .box {
+    color: rgb(44, 44, 65);
+    font-size: small;
+    padding: 10px 2rem;
+}
+
+
+.body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 7rem 0;
+    place-content: center;
+}
+
+.txt {
+    
+}
+
+.grow {
+    font-size: 4rem;
+    font-weight: bolder;
+    color: rgb(17, 17, 138);
+}
+
+span {
+    color: rgb(71, 71, 224);
+    font-weight: 200;
+    font-size: 1.15rem;
+}
+
+/* input[type=button] {
+    display: flex;
+} */
+
+input[type=button] {
+    font-family: Helvetica;
+    border-radius: 2rem;
+    border: none;
+    padding: 1rem 2rem;
+}
+
+.white {
+    font-size: 10px;
+    font-weight: 600;
+    font-family: Helvetica;
+    color: #5552e0;
+    background-color: rgb(0, 0, 0, 0.1);
+    text-align: center;
+
+
+}
+
+.blue {
+    background-color: rgb(15, 80, 155);
+    color: white;
+    font-family: Arial, Helvetica;
+    font-weight: bolder;
+    font-size: 10px;
+    padding: 18px;
+    text-align: center;
+}
+
+
+.image {
+    display: grid;
+    place-content: center;
+}
+
+img {
+    width: 23rem;
+    height: 25rem;
+    object-fit: contain;
+}  

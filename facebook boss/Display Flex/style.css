@@ -1,0 +1,47 @@
+.flex {
+    display: flex;
+    gap: 1rem;
+    justify-content: stretch;
+    align-items: center;
+    /* height: 100vh; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column-reverse; */
+    /* width: fit-content; */
+}
+
+.box {
+    color: #fff;
+    height: 10rem;
+    /* width: 10rem; */
+    display: grid;
+    place-content: center;
+    font-size: 2rem;
+}
+
+/* 
+.box:nth-child(1) {
+    background-color: red;
+}
+
+.box:nth-child(2) {
+    background-color: green;
+}
+
+.box:nth-child(3) {
+    background-color: blue;
+}
+
+.box:nth-child(4) {
+    background-color: black;
+} */
+
+.box:nth-child(even) {
+    background-color: gray;
+    flex: 1;
+}
+
+.box:nth-child(odd) {
+    height: 5rem;
+    flex: 0 0 20rem;
+    background-color: purple;
+}
